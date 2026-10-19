@@ -1,6 +1,8 @@
 # Input Traces
 
-Trace files are distributed separately from the Git repository. To collect them locally, follow [../trace_tools/README.md](../trace_tools/README.md).
+The nine trace files will be distributed through Zenodo. The download link will be added to the [main README](../README.md#input-traces) after publication. They are not included in this Git repository.
+
+To collect them locally, follow [../trace_tools/README.md](../trace_tools/README.md).
 
 Place these files in this directory:
 

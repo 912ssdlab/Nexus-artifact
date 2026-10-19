@@ -13,7 +13,7 @@ python3 -m pip install -r requirements.txt
 
 ## Run Experiments
 
-Place the input files listed below in `traces/`, then run:
+Download the input files as described in [Input Traces](#input-traces), place them in `traces/`, then run:
 
 ```bash
 bash run.sh --output "$PWD/results"
@@ -51,6 +51,12 @@ Repeat the same command to resume. Use a new output directory for a different co
 | RT-TRACK | Real-time tasks | `RT-TRACK.trace` |
 
 Tables are saved to `results/paper_data/`; figures are saved to `results/figures/`.
+
+## Input Traces
+
+The nine trace files are not included in this Git repository. They will be distributed through Zenodo; the download link will be added here after publication.
+
+Place the downloaded `.trace` files directly in `traces/`, keeping the filenames listed above. Alternatively, collect them using `bash collect.sh --output "$PWD/recollected"` after following [trace_tools/README.md](trace_tools/README.md).
 
 ## Generate Figures
 
