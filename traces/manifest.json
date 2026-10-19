@@ -1,0 +1,110 @@
+[
+  {
+    "Workload": "OFLOW",
+    "trace": "OFLOW",
+    "role": "Motivation",
+    "historical_group": "Page-friendly",
+    "requests": 37170438,
+    "trace_sha256": "20d256298692ced473c671f653f20cece173e6eb0ad02161facf1d6dfb3f5e01",
+    "path": "traces/OFLOW.trace",
+    "alias": "OFLOW",
+    "bytes": 1022988713,
+    "motivation": true
+  },
+  {
+    "Workload": "DL",
+    "trace": "DL",
+    "role": "Motivation",
+    "historical_group": "Page-friendly",
+    "requests": 40573277,
+    "trace_sha256": "123315f94452239e64e53fc18ce94cdfb5a44bc2a894bae13664b6098812af85",
+    "path": "traces/DL.trace",
+    "alias": "DL",
+    "bytes": 1162923307,
+    "motivation": true
+  },
+  {
+    "Workload": "RT-SIFT",
+    "trace": "RT-SIFT",
+    "role": "Motivation",
+    "historical_group": "Page-friendly",
+    "requests": 262559961,
+    "trace_sha256": "5dfc9103b3250de07107faffa98809976989cb3c478cf2017abf009856f90bb1",
+    "path": "traces/RT-SIFT.trace",
+    "alias": "RT-SIFT",
+    "bytes": 7776965218,
+    "motivation": true
+  },
+  {
+    "Workload": "SA-128",
+    "trace": "SA-128",
+    "role": "Motivation",
+    "historical_group": "Cacheline-friendly",
+    "requests": 118654360,
+    "trace_sha256": "40a2f7cc5d2473ba793905c49d004aba119bc000885f921694b834d4e37f885f",
+    "path": "traces/SA-128.trace",
+    "alias": "SA-128",
+    "bytes": 3297819755,
+    "motivation": true
+  },
+  {
+    "Workload": "SA-64",
+    "trace": "SA-64",
+    "role": "Motivation",
+    "historical_group": "Cacheline-friendly",
+    "requests": 51574833,
+    "trace_sha256": "e56fa593f181613d4661ed735a5bba7f0f9eb29043c0d8c1c08f398bdbd14b48",
+    "path": "traces/SA-64.trace",
+    "alias": "SA-64",
+    "bytes": 1410301717,
+    "motivation": true
+  },
+  {
+    "Workload": "DLRM",
+    "trace": "DLRM",
+    "role": "Motivation",
+    "historical_group": "Cacheline-friendly",
+    "requests": 22950782,
+    "trace_sha256": "6dd23447f37f4af7a53ce9e613986ad810a58659061e0dab52fb12c3fbb2231f",
+    "path": "traces/DLRM.trace",
+    "alias": "DLRM",
+    "bytes": 655781023,
+    "motivation": true
+  },
+  {
+    "Workload": "RT-MSER",
+    "trace": "RT-MSER",
+    "role": "Additional evaluation",
+    "historical_group": "Not assigned to a motivation group",
+    "requests": 54624084,
+    "trace_sha256": "bc936ca8a64a33c0b50a504e9a0bc2d361c23887e7857c8ed4569ef8bed47c4f",
+    "path": "traces/RT-MSER.trace",
+    "alias": "RT-MSER",
+    "bytes": 1573355653,
+    "motivation": false
+  },
+  {
+    "Workload": "SSSP",
+    "trace": "SSSP",
+    "role": "Additional evaluation",
+    "historical_group": "Not assigned to a motivation group",
+    "requests": 126929412,
+    "trace_sha256": "7840762bce1539b964a773131cc0ab57e5ec7f8516a49597ccf57985d7ee1a60",
+    "path": "traces/SSSP.trace",
+    "alias": "SSSP",
+    "bytes": 3596442654,
+    "motivation": false
+  },
+  {
+    "Workload": "RT-TRACK",
+    "trace": "RT-TRACK",
+    "role": "Additional evaluation",
+    "historical_group": "Not assigned to a motivation group",
+    "requests": 43987109,
+    "trace_sha256": "eb70b267a50fca925acfd2b233b0ddc25c9d896bea2acf4b78c68a9b4e6fa80a",
+    "path": "traces/RT-TRACK.trace",
+    "alias": "RT-TRACK",
+    "bytes": 1252912261,
+    "motivation": false
+  }
+]

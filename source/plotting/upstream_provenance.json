@@ -1,0 +1,5 @@
+{
+  "archive": "nexus_plot_sources_20261018.zip",
+  "sha256": "a6fa9837e3e6e49fa9b1cb17d1a9c85c3e094cb30172be6460553731d9d167f0",
+  "copied": "Plotting Python source only; adapted to new results. No historical data/reference PDF/validation results included."
+}

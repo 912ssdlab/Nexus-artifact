@@ -1,0 +1,11 @@
+DRAM_mode 0
+Has_cache 1
+DRAM_size 67108864
+Mix_mode 1
+Cache_portion_percentage 100
+Has_mshr 0
+Cache_placement 1
+Cache_policy LRU
+Prefetcher No
+Cache_metadata_entry_bytes 24
+Total_number_of_requests 999999999999999999

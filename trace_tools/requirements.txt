@@ -1,0 +1,8 @@
+# CPU-only versions may be used; install torch/torchvision using their CPU index.
+# Python 3.10 recommended. These versions identify the available collection environment,
+# not a promise that fresh recollection reproduces identical addresses/timestamps.
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.23.5
+opencv-python==4.11.0.86
+scikit-learn==1.0.2

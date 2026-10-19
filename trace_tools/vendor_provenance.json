@@ -1,0 +1,14 @@
+{
+  "valgrind_cachetrace": {
+    "commit": "040053890262abac1b504bbd5cd9ace8e2261a4e"
+  },
+  "gapbs": {
+    "commit": "b5e3e19c2845f22fb338f4a4bc4b1ccee861d026"
+  },
+  "rt-bench": {
+    "commit": "0a41b1b3eb68c10770d70aea7b2ea082204b5661"
+  },
+  "dlrm": {
+    "commit": "9bc1bc3602aea22afad3206910cec50f2dbe7364"
+  }
+}
