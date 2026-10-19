@@ -1,6 +1,8 @@
 # Input Traces
 
-The nine trace files will be distributed through Zenodo. The download link will be added to the [main README](../README.md#input-traces) after publication. They are not included in this Git repository.
+Download the nine traces from [Zenodo](https://zenodo.org/records/23463071) ([DOI: 10.5281/zenodo.23463071](https://doi.org/10.5281/zenodo.23463071)), released by **swu-912** under **CC BY 4.0**.
+
+Download all `.trace.gz` and `.trace.gz.partNNN` files, plus `SHA256SUMS`, into this directory. Follow the [verification and extraction commands](../README.md#input-traces) to obtain the files listed below.
 
 To collect them locally, follow [../trace_tools/README.md](../trace_tools/README.md).
 

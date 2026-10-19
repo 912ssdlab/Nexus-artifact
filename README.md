@@ -54,9 +54,24 @@ Tables are saved to `results/paper_data/`; figures are saved to `results/figures
 
 ## Input Traces
 
-The nine trace files are not included in this Git repository. They will be distributed through Zenodo; the download link will be added here after publication.
+Download the nine traces from [Zenodo: Nexus Memory-Access Traces](https://zenodo.org/records/23463071) ([DOI: 10.5281/zenodo.23463071](https://doi.org/10.5281/zenodo.23463071)). The dataset is released by **swu-912** under **CC BY 4.0**.
 
-Place the downloaded `.trace` files directly in `traces/`, keeping the filenames listed above. Alternatively, collect them using `bash collect.sh --output "$PWD/recollected"` after following [trace_tools/README.md](trace_tools/README.md).
+Download all `.trace.gz` and `.trace.gz.partNNN` files, plus `SHA256SUMS`, into `traces/`. From the repository root, verify, reassemble, and extract them:
+
+```bash
+cd traces
+sha256sum -c SHA256SUMS
+for first in *.trace.gz.part001; do
+  [ -f "$first" ] || continue
+  archive="${first%.part001}"
+  cat "$archive".part[0-9][0-9][0-9] > "$archive"
+done
+gzip -dk *.trace.gz
+cd ..
+bash run.sh --output "$PWD/results"
+```
+
+Alternatively, collect the traces using `bash collect.sh --output "$PWD/recollected"` after following [trace_tools/README.md](trace_tools/README.md).
 
 ## Generate Figures
 

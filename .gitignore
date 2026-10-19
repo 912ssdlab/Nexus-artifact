@@ -8,6 +8,8 @@ recollected/
 reproduction.log
 /traces/*.trace
 /traces/*.trace.gz
+/traces/*.trace.gz.part*
+/traces/SHA256SUMS
 /traces/*.trace.zst
 source/*/build/
 source/*/MQSim
